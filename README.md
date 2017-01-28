@@ -10,7 +10,7 @@ Your tasks include the following:
 
 - **Setup** During lab on Tuesday, complete the [setup instructions](setup.md).
 - If you also plan to do work on your own machine, complete the setup on your own machine as well.
-- **Prelab** Before coming to lab on Tuesday, I would like you to work through the prelab assignment.  The prelab is described in a python notebook called `pythonpractice.ipynb`.  If you have completed the setup instructions on your own computer, you can complete the prelab before class.  If you have not set up your own machine, you can simply open up `pythonpractice.ipynb` and `pythonpractice.py` in a web browser and read them.  Work out as much of a solution as you can and come to lab on Tuesday with a rough first draft solution.  
+- **Prelab** Before coming to lab on Tuesday, I would like you to work through the prelab assignment.  The prelab is described in a python notebook called `pythonpractice.ipynb`.  If you have completed the setup instructions on your own computer, you can complete the prelab before class.  If you have not set up your own machine, you can simply open up `pythonpractice.ipynb` and `pythonpractice.py` in a web browser and read them.  Work out as much of a solution as you can and come to lab on Tuesday with a rough draft of your solution.  
 - **Lab 1** Complete the lab itself.  After you have completed the setup instructions, open up the `lab1.ipynb` python notebook and follow the instructions there.
 
 The lab is due **Monday, Feb. 6th 2017 at 11:59pm**.
