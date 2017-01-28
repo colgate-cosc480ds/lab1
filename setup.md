@@ -23,6 +23,11 @@ Download the [course-specific Vagrantfile](https://raw.githubusercontent.com/col
 
 	$ vagrant up
 
+If you get an error -- something about a "Vagrant environment or target machine" being required, make sure that the downloaded Vagrantfile is named `Vagrantfile` and not `Vagrantfile.txt`.  If it is not, here's an easy fix:
+
+	$ mv Vagrantfile.txt Vagrantfile
+	$ vagrant up
+
 This may take a while, especially the first time that it is run.  Once this command completes, there is a virtual machine running on your computer.  We will use the terminology *host* to refer to your computer and *guest* to refer to the VM that is being run on the host.
 
 Now ssh into the vagrant virtual machine.  
@@ -64,15 +69,13 @@ To restart the VM, simply do
 Clone this repo.  
 
 	vagrant@ubuntu:~$ cd /vagrant/
-	vagrant@ubuntu:~$ git clone XXXXXX
+	vagrant@ubuntu:~$ git clone https://github.com/colgate-cosc480ds/lab1-[YOUR TEAM NAME].git lab1
 
 Change into the `lab1` directory.
 
 	vagrant@ubuntu:~$ cd lab1
-	vagrant@ubuntu:~$ ls
-	XXXXXX
 
-Since this folder is shared between the guest and host machine, you can see these files on your host machine as well.  
+Since this folder is inside the `/vagrant/` subdirectory, it is shared between the guest and host machine, you can see these files on your host machine as well.  
 
 Let's make sure you can commit changes to this repo.
 
