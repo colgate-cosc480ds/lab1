@@ -40,22 +40,12 @@ To submit your work, you must *commit* your changes, *tag* them, and then *push*
 
 		vagrant@ubuntu:~$ git commit -m 'completed lab1: this lab was _____'
 
-4. *Tag* your commit.  I will grade your work by checking out the tag.  If you don't tag your work, you won't be graded!
+4. *Tag* your commit.  I will grade your work by checking out the tag.  If you don't tag your work, you won't be graded!  Let's tag this lab as `lab1`.  (We'll use a [lightweight tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging).)
 
-		vagrant@ubuntu:~$ XXXX
+		vagrant@ubuntu:~$ git tag lab1
 
-5. *Push* these changes to GitHub.
+5. *Push* these changes to GitHub.  Be sure to push the tag!
 
-		vagrant@ubuntu:~$ git push origin master
+		vagrant@ubuntu:~$ git push origin lab1   # where lab1 is the name of your tag
 
 
-## My todo
-
-- team git instructions
-- put all the pieces together
-- post something on piazza that gets them to the assignment itself
-- check the zero in the age range 
-- take out my answers
-- update the link for the Vagrantfile
-- udpate the clone message
-- do a walk thru w/ a fake student
