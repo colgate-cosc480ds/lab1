@@ -23,7 +23,7 @@ Download the [course-specific Vagrantfile](https://raw.githubusercontent.com/col
 
 	$ vagrant up
 
-If you get an error -- something about a "Vagrant environment or target machine" being required, make sure that the downloaded Vagrantfile is named `Vagrantfile` and not `Vagrantfile.txt`.  If it is not, here's an easy fix:
+If you get an error -- something about a "Vagrant environment or target machine" being required -- make sure that the downloaded Vagrantfile is named `Vagrantfile` and not `Vagrantfile.txt`.  If it is not, here's an easy fix:
 
 	$ mv Vagrantfile.txt Vagrantfile
 	$ vagrant up
@@ -66,7 +66,7 @@ To restart the VM, simply do
 
 ## Clone first lab
 
-Clone this repo.  
+In the vagrant VM, clone this repo.  
 
 	vagrant@ubuntu:~$ cd /vagrant/
 	vagrant@ubuntu:~$ git clone https://github.com/colgate-cosc480ds/lab1-[YOUR TEAM NAME].git lab1

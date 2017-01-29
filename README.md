@@ -43,7 +43,3 @@ To submit your work, you must *commit* your changes, *tag* them, and then *push*
 
 		vagrant@ubuntu:~$ git push origin master
 
-5. *Tag* your commit.  I will grade your work by checking out the tag, so (a) be sure to tag and (b) be sure to add the tag only when you are completely done.  If you don't tag your work, you won't be graded!  Let's tag this lab as `lab1`.  (We'll use a [lightweight tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging).)
-
-		vagrant@ubuntu:~$ git tag lab1
-		vagrant@ubuntu:~$ git push origin lab1   # push the tag
